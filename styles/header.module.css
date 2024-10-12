@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.langsocials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 16px;
+}
+.languageBtn {
+  background-color: transparent;
+  border: 1px solid rgba(253, 205, 52, 1);
+  border-radius: 40px;
+  color: rgba(40, 39, 39, 1);
+  font-family: Outfit;
+  width: 90px;
+  height: 30px;
+}
+.social {
+  width: 24px;
+  height: 24px;
+  margin: 0 8px;
+}
+
+.logo {
+  height: 100%;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 120px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navBtn {
+  background-color: transparent;
+  border-color: transparent;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+}

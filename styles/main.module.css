@@ -1,0 +1,265 @@
+.container {
+  min-height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainpage {
+  width: 100%;
+}
+
+.heroSection {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+  /* background-color: #fdf7e6; */
+}
+
+.heroImage {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.heroText {
+  flex: 1;
+  padding-left: 30px;
+  position: absolute;
+  right: 0;
+}
+
+.heroText h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.highlight {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.donateBtnLarge {
+  background-color: #f9d14d;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.aboutSection {
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutSection h2 {
+  font-size: 60px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.aboutSection p {
+  font-size: 24px;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+.flower {
+  height: 400;
+  width: 400;
+}
+
+.sectionText {
+  text-align: left;
+}
+
+.whatWeDoSection {
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatWeDoSection h2 {
+  font-size: 60px;
+  color: #333;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.whatWeDoSection p {
+  font-size: 24px;
+  color: #666;
+  max-width: 700px;
+  margin-left: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.buttons button {
+  background-color: #fece34;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 24px;
+  height: 100px;
+  max-width: 220px;
+  text-transform: uppercase;
+}
+
+.meaningSection {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.meaningTitle {
+  font-size: 48px;
+  color: #6b6969;
+  margin-bottom: 40px;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+.meaningTodo {
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* Betty Section */
+.bettySection {
+  background-color: #fece34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bettyContent {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.bettyText {
+  flex: 1;
+  padding: 50px 0;
+}
+
+.bettyText h3 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #282727;
+  margin: 0 0 16px;
+}
+
+.bettyText p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+}
+
+.bettyText i {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+}
+
+.bettyImageWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bettyImage {
+  height: 550px;
+  width: 550px;
+  border-radius: 10px;
+  margin: -40px 0;
+}
+
+/* Partner Section */
+.partnerSection {
+  background-color: #fdf9ee;
+  padding: 10px 0;
+  text-align: center;
+  margin: 100px 0 50px;
+}
+
+.partnerTitle {
+  font-size: 48px;
+  font-weight: 400;
+  color: #6b6969;
+  letter-spacing: -2px;
+  margin-bottom: 0;
+}
+
+.partnerTitle span {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.partnerLogo {
+  margin-top: 20px;
+  width: 280px;
+}
+
+/* Join Us Section */
+.joinUsSection {
+  padding: 20px 0 80px;
+  text-align: center;
+}
+
+.joinUsSection h2 {
+  font-size: 64px;
+  color: #282727;
+}
+
+.joinUsSection p {
+  font-size: 24px;
+  color: #000;
+  max-width: 70%;
+  margin: 0 auto 20px;
+  text-align: left;
+  line-height: 28.8px;
+}
+
+.joinButtons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.joinButtons button {
+  background-color: #fece34;
+  border: none;
+  padding: 10px 60px;
+  margin: 0 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 24px;
+  height: 100px;
+  text-transform: uppercase;
+}
