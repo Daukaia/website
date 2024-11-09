@@ -28,12 +28,16 @@
   padding-left: 30px;
   position: absolute;
   right: 0;
+  width: 50%;
+  text-align: center;
 }
 
 .heroText h1 {
-  font-size: 2.5rem;
+  font-size: 5.5rem;
   font-weight: 400;
+  line-height: 1.2em;
   color: #333;
+  padding-right: 1em;
 }
 
 .highlight {
@@ -42,14 +46,19 @@
 }
 
 .donateBtnLarge {
-  background-color: #f9d14d;
+  background-color: white;
   border: none;
+  border-radius: 10px;
   padding: 15px 30px;
-  font-size: 1.3rem;
-  color: white;
-  border-radius: 5px;
+  font-size: 40px;
+  color: #f9d14d;
+  border-radius: 50px;
   cursor: pointer;
   margin-top: 20px;
+  height: 2.5em;
+  width: 8em;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .aboutSection {
@@ -62,21 +71,21 @@
 }
 
 .aboutSection h2 {
-  font-size: 60px;
+  font-size: 80px;
   color: #333;
   margin-bottom: 20px;
 }
 
 .aboutSection p {
-  font-size: 24px;
+  font-size: 30px;
   color: #666;
   max-width: 700px;
   margin: 0 auto 20px;
+  line-height: 35px;
 }
 
 .flower {
-  height: 400;
-  width: 400;
+  width: 600px;
 }
 
 .sectionText {
@@ -93,17 +102,18 @@
 }
 
 .whatWeDoSection h2 {
-  font-size: 60px;
+  font-size: 80px;
   color: #333;
   margin-left: 20px;
   margin-bottom: 20px;
 }
 
 .whatWeDoSection p {
-  font-size: 24px;
+  font-size: 30px;
   color: #666;
   max-width: 700px;
   margin-left: 20px;
+  line-height: 35px;
 }
 
 .buttons {
@@ -134,7 +144,7 @@
   align-items: center;
 }
 .meaningTitle {
-  font-size: 48px;
+  font-size: 56px;
   color: #6b6969;
   margin-bottom: 40px;
   font-weight: 400;
@@ -165,20 +175,21 @@
 }
 
 .bettyText h3 {
-  font-size: 64px;
+  font-size: 70px;
   font-weight: 700;
   color: #282727;
   margin: 0 0 16px;
 }
 
 .bettyText p {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 400;
   color: #000;
+  line-height: 35px;
 }
 
 .bettyText i {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 400;
   color: #000;
 }
@@ -206,7 +217,7 @@
 }
 
 .partnerTitle {
-  font-size: 48px;
+  font-size: 60px;
   font-weight: 400;
   color: #6b6969;
   letter-spacing: -2px;
@@ -220,7 +231,7 @@
 
 .partnerLogo {
   margin-top: 20px;
-  width: 280px;
+  width: 350px;
 }
 
 /* Join Us Section */
@@ -230,17 +241,17 @@
 }
 
 .joinUsSection h2 {
-  font-size: 64px;
+  font-size: 70px;
   color: #282727;
 }
 
 .joinUsSection p {
-  font-size: 24px;
+  font-size: 30px;
   color: #000;
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto 20px;
   text-align: left;
-  line-height: 28.8px;
+  line-height: 35px;
 }
 
 .joinButtons {
@@ -253,13 +264,13 @@
 .joinButtons button {
   background-color: #fece34;
   border: none;
-  padding: 10px 60px;
+  padding: 10px 100px;
   margin: 0 30px;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 800;
   cursor: pointer;
   border-radius: 24px;
-  height: 100px;
+  height: 120px;
   text-transform: uppercase;
 }

@@ -8,21 +8,24 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 16px;
+  padding: 32px 4em;
+  align-items: center;
 }
 .languageBtn {
   background-color: transparent;
   border: 1px solid rgba(253, 205, 52, 1);
   border-radius: 40px;
   color: rgba(40, 39, 39, 1);
+  font-size: 20px;
   font-family: Outfit;
-  width: 90px;
-  height: 30px;
+  width: 120px;
+  height: 40px;
+  margin-right: 16px;
 }
 .social {
-  width: 24px;
-  height: 24px;
-  margin: 0 8px;
+  width: 32px;
+  height: 32px;
+  margin: 0 16px;
 }
 
 .logo {
@@ -32,7 +35,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 120px;
+  height: 180px;
+  padding: 0 4em;
 }
 
 .buttons {
@@ -44,6 +48,19 @@
   background-color: transparent;
   border-color: transparent;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 2.2em;
   font-weight: 400;
+  margin: 0 1em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.donateBtn {
+  background-image: url("/images/donate-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 2em;
+  font-weight: 600;
+  margin: 0;
+  padding: 0 1em;
 }
