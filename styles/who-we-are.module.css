@@ -1,0 +1,133 @@
+.mainpage {
+  width: 100%;
+}
+
+.heroSection {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+  position: relative;
+}
+
+.heroImage {
+  width: 100%;
+  border-radius: 10px;
+}
+.heroImageYellow {
+  width: 100%;
+  margin-top: -11rem;
+}
+.heroTitle {
+  position: absolute;
+  bottom: 12rem;
+  left: 8rem;
+  font-size: 80px;
+  color: white;
+}
+
+.multiSection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.aboutSection {
+  padding: 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTitle {
+  font-size: 80px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.aboutSection p {
+  font-size: 30px;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  line-height: 35px;
+}
+
+.flower {
+  width: 600px;
+}
+
+.values {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 0 5rem;
+}
+.value {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.valueText {
+  color: #fece34;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.valueLogo {
+  width: 20rem;
+}
+.valueDescription {
+  font-size: 2rem;
+  padding: 0 3rem;
+  text-align: center;
+  line-height: 2.2rem;
+}
+
+.impacts {
+  border: 5px solid #fece34;
+  border-radius: 40px;
+  padding: 2rem 4rem 4rem;
+  margin: 6rem 4rem;
+  background-color: #fff;
+  position: relative;
+}
+.impactTitle {
+  position: absolute;
+  top: -4rem;
+  margin: 0;
+}
+.impactSubtitle {
+  font-size: 30px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.impactList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.impactItem {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1rem;
+}
+.impactBullet {
+  color: #fece34;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 0 1rem;
+}
+.impactItem strong {
+  font-weight: bold;
+  color: #333;
+  font-size: 32px;
+}
+.impactItem p {
+  font-size: 30px;
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+}
